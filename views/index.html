@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>File Metadata</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/079ec80426.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>File Metadata Microservice</h2>
+
+    <h3>Get Details about uploaded file</h3>
+    <div class="container">
+      <div class="view">
+        <h4>Please Upload a File ...</h4>
+        <h4 id="output"></h4>
+        <form
+          enctype="multipart/form-data"
+          method="POST"
+          action="/api/fileanalyse"
+        >
+          <div class="pick">
+            <input id="inputfield" type="file" name="upfile" />
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <input id="button" type="submit" value="Upload" />
+        </form>
+      </div>
+    </div>
+    <p>File Size is in KB</p>
+    <footer>
+      <h5>
+        Challenge by
+        <a href="http://www.freecodecamp.com">freeCodeCamp</a>
+      </h5>
+      <h5>&copy; samv749</h5>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+/****** Main Styling ******/
+* {
+  padding: 0;
+  margin: 1rem auto 0 auto;
+  color: #2f3e46;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  margin-top: -1rem;
+  font-size: 16px;
+  background-color: #f5cac3;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: #f8edeb;
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+a {
+  color: #2574a9;
+}
+
+input {
+  margin: 10px auto;
+}
+
+input#button {
+  width: 150px;
+  padding: 0.5em 1em;
+  border: 1px solid #adb5bd;
+  border-radius: 15px;
+}
+
+input#button:hover {
+  background-color: #f5cac3;
+  color: #fff;
+}
+
+.view {
+  position: relative;
+  padding: 20px;
+  width: 60%;
+  max-width: 400px;
+}
+i {
+  display: block;
+  width: 20%;
+}
+
+.pick {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+footer {
+  width: 100vw;
+  align-items: center;
+  background-color: #343a40;
+  margin-top: auto;
+}
+footer > h5 {
+  color: white;
+}
